@@ -1,13 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *main - prints loop in lower case
+ *main - this is the main
  *
  *Return: returns 0
  */
 int main(void)
 {
+	char i;
+
 	for (i = 'a' ; i <= 'z' ; i++)
 		putchar(i);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
