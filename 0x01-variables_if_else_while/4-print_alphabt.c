@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ *main - this is main
+ *
+ *Return: returns 0
+ */
+
+int main(void)
+{
+	char i;
+
+	for (i = 'a' ; i <= 'z'; i++)
+		if (i != 'e' && i != 'p')
+			putchar(i);
+	putchar('\n');
+	return (0);
+}
